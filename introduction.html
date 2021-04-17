@@ -10,7 +10,7 @@
             background-color:#591dfd;
             border: rgb(241, 64, 233);
             color: rgb(250, 103, 218);
-            font-family: palatino;
+            font-family: Arial, Helvetica, sans-serif;
             padding: 8px 10px;
             text-align: center;
             text-decoration: none;
@@ -24,11 +24,33 @@
             background-color: #5535c9;
             color: #ffffff;
             padding: 10px 12px;
+        }
+        details{
+            font-size: 20px;
+            color: rgb(32, 206, 41);
+        }
+        details:hover{
+            font-size: 25px;
+            align-self: center;
+        }
+        .last{
+            color: chartreuse;
+        }
+        dt{
+            color: cyan;
+        }
+        dd{
+            color: darkorange;
+        }
+        hr{
+            color: greenyellow;
+        }
+          
         </style>
     </head>
     <body background="sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg">
-        <font color="Aqua"><h1>It is an Introduction</h1></font><hr>
-        <font color="Yellow"><p>Welcome to <i>HTML</i></p></font>
+        <h1 style="color: crimson;">It is an Introduction</h1>
+        <p style="color: darkorange;">Welcome to <i>HTML</i></p>
 
         <details>
             <summary>
@@ -45,13 +67,15 @@
                 <details>
                     <summary>
                         Name
-                    </summary>
+                    </summary><br>                  
                     Pragnya
                 </details>
             </li>
             <li>
                 <details>
-                    <summary>Class</summary>
+                    <summary>
+                        Class
+                    </summary><br>
                     10A
                 </details>
             </li>
@@ -64,7 +88,7 @@
                 <details>
                     <summary>
                         Names
-                    </summary>
+                    </summary><br>
                     <ol>
                         <li>Pragnya</li>
                         <li>Tarun</li>
@@ -76,7 +100,7 @@
                 <details>
                     <summary>
                         HTML
-                    </summary>
+                    </summary><br>
                     <ol>
                         <li>Hyper</li>
                         <li>Text</li>
@@ -98,7 +122,7 @@
 
 
         <!-- nested list -->
-
+        <class class="last">
         <ul>
             <li>
                 Fruits
@@ -116,5 +140,6 @@
                 </ol>
             </li>
         </ul>
+        </class>
     </body>
 </html>

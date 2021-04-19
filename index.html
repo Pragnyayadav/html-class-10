@@ -4,6 +4,10 @@
             Introduction
         </title>
         <style>
+        body{
+            padding: 20px;
+            
+        }
         summary{
             cursor: pointer;
             margin: 150px 0;
@@ -45,10 +49,29 @@
         hr{
             color: greenyellow;
         }
-          
+        .image1{
+            align-items: center;
+        }
+        .button{
+            padding: 20px;
+            cursor: pointer;
+            margin: 150px 0;
+            background-color: cyan;
+            border: darkorange;
+            padding: 8px 10px;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+        .button:hover{
+            background-color: deepskyblue;
+            padding: 10px 12px;
+            color: #ffffff;
+        }
         </style>
     </head>
-    <body background="sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg">
+    <body style="background-image: url(sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg);">
         <h1 style="color: crimson;">It is an Introduction</h1>
         <p style="color: darkorange;">Welcome to <i>HTML</i></p>
 
@@ -133,7 +156,7 @@
             </li>
             <li>
                 Vegetables
-                <ol>
+                <ol type="I" start="10">
                     <li>Carrot</li>
                     <li>Capsicum</li>
                     <li>Tomato</li>
@@ -141,5 +164,12 @@
             </li>
         </ul>
         </class>
+        <img src="thumb-True-Damage-Ahri.jpg" alt="image1" class="image1" style="align-content: center;">
+
+
+        <!-- links -->
+        <a href="link.html" class="button" target="_blank">
+        Click Me!
+        </a>
     </body>
 </html>
